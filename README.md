@@ -3,8 +3,8 @@
 > 👉 **Step 1** - Download the code from the GH repository (using `GIT`) 
 
 ```bash
-$ git clone https://github.com/tdggalvao/previsao-de-vendas.git
-$ cd previsao-de-vendas
+$ git clone https://github.com/tdggalvao/modeloPreditivo.git
+$ cd modeloPreditivo
 ```
 
 <br />
@@ -26,8 +26,8 @@ Visit `http://localhost:5085` in your browser. The app should be up & running.
 > Download the code 
 
 ```bash
-$ git clone https://github.com/tdggalvao/previsao-de-vendas.git
-$ cd previsao-de-vendas
+$ git clone https://github.com/tdggalvao/modeloPreditivo.git
+$ cd modeloPreditivo
 ```
 
 <br />
