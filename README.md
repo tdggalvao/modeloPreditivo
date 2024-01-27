@@ -112,7 +112,8 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 O sistema Web possui autenticação de usuário (login e registro)
-Inicia com uma tela demonstrativa ilustrativa de um modelo (ARIMA) - NÂO REAL
+Inicia com uma tela demonstrativa ilustrativa de um modelo (ARIMA) - NÂO REAL.
+<br />
 No menu lateral:
 Dashboard
 Dynamic Tables - Onde apresenta os dados do banco de dados, com opção de baixar em pdf e em excel.
