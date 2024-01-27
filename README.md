@@ -115,12 +115,20 @@ O sistema Web possui autenticação de usuário (login e registro)
 Inicia com uma tela demonstrativa ilustrativa de um modelo (ARIMA) - NÂO REAL.
 <br />
 No menu lateral:
-Dashboard
+Dashboard.
 Dynamic Tables - Onde apresenta os dados do banco de dados, com opção de baixar em pdf e em excel.
+<br />
+Dynamic tables (http://127.0.0.1:8000/tables/) deve ser adicionado um arquivo csv como base de dados. Após isso deve ser passado na url padrão (http://127.0.0.1:8000/) 
+<br />
 Generated API - Onde apresenta os dados em .json.
 Authentication - Para registro de usuário e posterior login.
-
+<br />
 Nesse sistema há a possibilidade de geral o modelo SARIMAX por meio da URL:
+Argumentos no formato '<str:nome_do_produto>/<int:Numero_de_meses>'
+<br />
+Exemplo: http://127.0.0.1:8000/Newell%20322/12 ----> "predição do produto Newell 20322 para 12 meses.
+Pode ser usado o argumento ALL para analise de todos os produtos
+Exemplo: http://127.0.0.1:8000/ALL/12
 
 127.0.0.1:8000/ALL/12 - Aqui apresenta a predição de 12 meses para todos os produtos.
 
