@@ -108,7 +108,8 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 <br />
 
 ## Sitema Web Django
-<br\>
+
+<br />
 
 O sistema Web possui autenticação de usuário (login e registro)
 Inicia com uma tela demonstrativa ilustrativa de um modelo (ARIMA) - NÂO REAL
@@ -126,7 +127,7 @@ Também há possibilidade de fazer a predição para um produto individual e par
 
 127.0.0.1:8000/mouse/4 - Nesse caso colocar o nome do produto (item do banco de dados) seguido do número de meses de predição.
 
-<br\>
+<br />
 
 ## Codebase Structure
 
