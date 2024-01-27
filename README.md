@@ -107,6 +107,27 @@ At this point, the app runs at `http://127.0.0.1:8000/`.
 
 <br />
 
+## Sitema Web Django
+<br\>
+
+O sistema Web possui autenticação de usuário (login e registro)
+Inicia com uma tela demonstrativa ilustrativa de um modelo (ARIMA) - NÂO REAL
+No menu lateral:
+Dashboard
+Dynamic Tables - Onde apresenta os dados do banco de dados, com opção de baixar em pdf e em excel.
+Generated API - Onde apresenta os dados em .json.
+Authentication - Para registro de usuário e posterior login.
+
+Nesse sistema há a possibilidade de geral o modelo SARIMAX por meio da URL:
+
+127.0.0.1:8000/ALL/12 - Aqui apresenta a predição de 12 meses para todos os produtos.
+
+Também há possibilidade de fazer a predição para um produto individual e para uma quantidade de meses desejada, exemplo:
+
+127.0.0.1:8000/mouse/4 - Nesse caso colocar o nome do produto (item do banco de dados) seguido do número de meses de predição.
+
+<br\>
+
 ## Codebase Structure
 
 The project is coded using a simple and intuitive structure presented below:
